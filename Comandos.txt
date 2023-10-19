@@ -1,0 +1,33 @@
+Bash comando basicos
+
+Crea directorio
+	mkdir <nombre directorio>
+Renombra - Mueve
+	mv <origen> <destino>
+
+Git
+Inicializar repositorio
+	git init
+
+Renombrar rama master a main	
+	git branch -m main
+
+Ver ramas
+	git branch
+
+Sincronizar repositorio local con el remoto
+	git remote add origin <nombre repositorio en git>
+
+Estado 
+	git status
+
+Agregar archivos no seguidos
+	git add .
+
+Commit
+	git commit -m "Comentario descriptivo del cambio"
+
+Subir los archivos a github
+	git push -u origin <nombre de la rama>
+
+Clonar repositorio	
